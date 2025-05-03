@@ -1,6 +1,6 @@
 # Typing Game
 
-A simple browser-based typing game inspired by ZType. The objective of the game is to type words as they appear on the screen before they reach the bottom.
+The objective of the game is to type words as they appear on the screen before they reach the bottom.
 
 ## Features
 - Random word generation
