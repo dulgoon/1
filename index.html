@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <header id="header">
+            <h1>Typing Game</h1>
+        </header>
+        <div id="game-area">
+            <canvas id="game-canvas" style="display: none;"></canvas>
+            <button id="start-button">Start Game</button>
+        </div>
+        <div id="scoreboard" style="display: none;">
+            <div id="score-section">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+            <div id="lives-section">
+                <p>Lives: <span id="lives">3</span></p>
+            </div>
+        </div>
+        <footer id="footer" style="display: none;">
+            <input type="text" id="input-box" placeholder="Type here..." autofocus />
+        </footer>
+    </div>
+    <script src="assets/game.js"></script>
+</body>
+</html>
